@@ -231,19 +231,21 @@ incorrect.](./media/image21.png)
     ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image22.png)
 
-4.  Run azd up - This will provision Azure resources
+4.  Run the following commands to set the resource location region and to deploy the necessary resources - This will provision Azure resources
 
+    +++azd env set AZURE_LOCATION centralus+++
+    
     +++azd up+++
 
     ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image23.png)
 
-5.  Enter +++byocaapp@lab.labinstance.id+++ as your environment name.
+6.  Enter +++byocaapp@lab.labinstance.id+++ as your environment name.
 
     ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image24.png)
 
-6.  Select below values.
+7.  Select below values.
 
     - **Select an Azure Subscription to use** : Select your subscription
     
@@ -265,7 +267,7 @@ incorrect.](./media/image27.png)
     ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image28.png)
 
-7.  This deployment will take *7-10 minutes* to provision the resources
+8.  This deployment will take *7-10 minutes* to provision the resources
     in your account and set up the solution with sample data.
 
     ![A screenshot of a computer AI-generated content may be
@@ -277,12 +279,12 @@ incorrect.](./media/image30.png)
     ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image31.png)
 
-8.  Now the deployment is complete
+9.  Now the deployment is complete
 
     ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image32.png)
 
-9.  After the application has been successfully deployed, you see a URL
+10.  After the application has been successfully deployed, you see a URL
     displayed in the terminal. Copy the **URL**
 
     ![A screenshot of a computer AI-generated content may be

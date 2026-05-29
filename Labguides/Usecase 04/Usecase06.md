@@ -171,11 +171,13 @@ will be using throughout the lab.
    ![](https://raw.githubusercontent.com/technofocus-pte/AzAifndry-Agntsdepth/refs/heads/main/Labguides/Usecase%2004/media/img5.png)
 
 3. Copy the code and replace the contents of the main.bicep file in the Codespace.
-    ![](https://raw.githubusercontent.com/technofocus-pte/AzAifndry-Agntsdepth/refs/heads/main/Labguides/Usecase%2004/media/img6.png)
+   
+   ![](https://raw.githubusercontent.com/technofocus-pte/AzAifndry-Agntsdepth/refs/heads/main/Labguides/Usecase%2004/media/img6.png)
    ![](https://raw.githubusercontent.com/technofocus-pte/AzAifndry-Agntsdepth/refs/heads/main/Labguides/Usecase%2004/media/img7.png)
-4. Save the main.bicep file to apply the changes.
+   
+5. Save the main.bicep file to apply the changes.
 
-5.  Run the following command on the Terminal. It generates the code to
+6.  Run the following command on the Terminal. It generates the code to
     copy. Copy the code and press Enter.
 
       +++azd auth login+++
@@ -201,36 +203,37 @@ will be using throughout the lab.
       +++azd env new+++
 
       ![](https://raw.githubusercontent.com/technofocus-pte/AzAifndry-Agntsdepth/refs/heads/main/Labguides/Usecase%2004/media/image22.png)
-5. Run below command to set resource group
+    
+6. Run below command to set resource group
 
    +++azd env set AZURE_RESOURCE_GROUP {your resource group name}+++
      ![](https://raw.githubusercontent.com/technofocus-pte/AzAifndry-Agntsdepth/refs/heads/main/Labguides/Usecase%2004/media/image29.png)
 
-6.  Run the following Azure Developer CLI command to provision the Azure
+7.  Run the following Azure Developer CLI command to provision the Azure
     resources and deploy the code.
 
       +++azd up+++
 
     
-7.  When prompted, select a **subscription** to create the resources and
+8.  When prompted, select a **subscription** to create the resources and
     select the region closest to your location; in this lab, we have
     chosen the **Sweden Central** region.
 
       ![](https://raw.githubusercontent.com/technofocus-pte/AzAifndry-Agntsdepth/refs/heads/main/Labguides/Usecase%2004/media/img3.png)
 
-8.  When prompted, **enter a value for the 'openAILocation'
+9.  When prompted, **enter a value for the 'openAILocation'
     infrastructure parameter** select the region closest to your
     location; in this lab, we have chosen the **North Central
     US** region
 
       ![](https://raw.githubusercontent.com/technofocus-pte/AzAifndry-Agntsdepth/refs/heads/main/Labguides/Usecase%2004/media/image26.png)
 
-9.  Provisioning resource will take around 15-16 min. Click **Yes** if
+10.  Provisioning resource will take around 15-16 min. Click **Yes** if
     prompted.
 
        ![](https://raw.githubusercontent.com/technofocus-pte/AzAifndry-Agntsdepth/refs/heads/main/Labguides/Usecase%2004/media/image27.png)
 
-10. Wait for the template to provision all resource successfully.
+11. Wait for the template to provision all resource successfully.
 
      ![](https://raw.githubusercontent.com/technofocus-pte/AzAifndry-Agntsdepth/refs/heads/main/Labguides/Usecase%2004/media/image28.png)
 
